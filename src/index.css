@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
 
 /*Reset CSS*/
 html, body, div, span, applet, object, iframe,
@@ -47,10 +49,16 @@ table {
 /*Reset CSS*/
 
 body{
-  background-color: #f6f6f6;
+  background-color: #dbdbdb;
 }
 
 *{
   box-sizing: border-box;
   font-family: 'Italiana', sans-serif;
 }
+
+#root > main.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
